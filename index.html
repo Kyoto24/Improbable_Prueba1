@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Improbable</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/panel.css">
+    <link rel="stylesheet" href="css/power.css">
+    <link rel="stylesheet" href="css/messages.css">
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+    <!-- Pantalla principal -->
+    <main class="main-screen">
+
+        <div class="sky sunset"></div>
+
+        <div class="sky night"></div>
+
+        <!-- Logo -->
+        <header class="logo-container">
+
+            <h1 class="logo">
+                IMPROBABLE
+            </h1>
+
+        </header>
+
+        <!-- Mensaje aleatorio -->
+        <section class="message-container">
+
+            <p class="random-message">
+                ¿Te gu'tan lo pate'lito?
+            </p>
+
+        </section>
+
+        <!-- Menú principal -->
+        <nav class="main-menu">
+
+    <button class="menu-button" data-panel="power">
+        Sistema de Poder
+    </button>
+
+    <button class="menu-button" data-panel="characters">
+        Personajes
+    </button>
+
+    <button class="menu-button" data-panel="timeline">
+        Cronología
+    </button>
+
+    <button class="menu-button" data-panel="gallery">
+    Galería de Arte
+    </button>
+
+</nav>
+
+
+
+
+    <!-- ==========================================
+     PANEL DEL SISTEMA DE PODER
+========================================== -->
+
+<section class="panel">
+
+    <div class="panel-window">
+
+    
+
+        <div class="panel-header">
+
+            <h2 id="panel-title">
+            Sistema de Poder
+            </h2>
+
+        </div>
+
+        <div class="panel-container">
+
+            <aside class="panel-sidebar">
+
+            <button class="panel-option active" data-topic="Improbables">
+                Improbables
+            </button>
+
+            <button class="panel-option" data-topic="Laritmias">
+                Laritmias
+            </button>
+
+            <button class="panel-option" data-topic="Constantes">
+                Constantes
+            </button>
+
+            <button class="panel-option" data-topic="Primores">
+                Primores
+            </button>
+
+            <button class="panel-option" data-topic="Anomalías">
+                Anomalías
+            </button>
+
+        </aside>
+
+        <section class="panel-content">
+
+            <div class="content-box">
+
+                <!-- Aquí aparecerá el contenido -->
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <div class="panel-footer">
+
+        <button class="back-button">
+
+             Regresar al atardecer
+
+        </button>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- ==========================================
+     GALERÍA DE ARTE
+========================================== -->
+
+<section class="gallery-panel">
+
+    <div class="gallery-window">
+
+        <div class="gallery-header">
+
+            <h2>Galería de Arte</h2>
+
+        </div>
+
+        <div class="gallery-content">
+
+            <div class="gallery-grid">
+
+            </div>
+
+        </div>
+
+        <div class="gallery-footer">
+
+            <button class="gallery-back-button">
+
+                Regresar al atardecer
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<div class="image-viewer">
+
+    <img class="viewer-image">
+
+</div>
+
+  
+    </main>
+
+    
+
+    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/panel.js"></script>
+    <script src="js/transition.js"></script>
+    <script src="js/messages.js"></script>
+    <script src="js/power.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/galleryData.js"></script>
+</body>
+</html>
