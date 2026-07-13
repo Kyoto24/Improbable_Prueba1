@@ -140,7 +140,7 @@ const galleryImages = [
     {
         titulo: "Otto meme.",
         artista: "Jaraganpel",
-        imagen: "img/fanarts/Otto_Meme.jpg"
+        imagen: "img/fanarts/Otto_meme.jpg"
         
     },
 
